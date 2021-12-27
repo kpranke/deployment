@@ -14,13 +14,13 @@
 1. [Personal situation](#personal-situation)
 
 ## Description
-This project is a part of the Becode.org AI Bootcamp programme. The goal is to produce a supervised classifier for anomalous sound detection in industrial machines for a fictional company Acme Corporation. Data samples of normal and abnormal sounds of valves, pumps, fans and sliders are provided. 
+This project is a part of the Becode.org AI Bootcamp programme. The goal is to to create a dashboard with insights about games on Steam platform based on scraped data provided in JSON format. The dashboard should be deployed with Flask, Docker and Heroku.
 
-![factory](https://images.unsplash.com/photo-1513828583688-c52646db42da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80)
+![steam games](https://static.techspot.com/images2/news/bigimage/2019/09/2019-09-20-image-3.jpg)
 
 ## Objectives
 
-- Be able to parse json files
+- Be able to parse JSON files
 - Be able to build and deploy an app using Flask, Docker, and Heroku
 - Be able to save json data into an SQL database
 - Be able to design a relational SQL database
@@ -29,13 +29,12 @@ This project is a part of the Becode.org AI Bootcamp programme. The goal is to p
 
 ### Strengths
 
-- Normalised SQL database
+- Normalised SQL database (See: the ER diagram below)
 - Full pipeline:  JSON to SQL, data insights, Flask + HTML, Docker, Heroku.
 
 ### Limitations
 
-- Not all data normalised. 
-- 
+- Not all data was transformed to a normalised database.
 
 ### Further Developments
 
@@ -45,10 +44,10 @@ This project is a part of the Becode.org AI Bootcamp programme. The goal is to p
 
 ## Repo Architecture
 
-- *(1) README.md* Project documentation
-- *(2) 
-- *(3) 
-- *(4) 
+- *(1) **/img** - a folder with images, contains an ER diagram of the existing SQL database and a suggested data pipelines (1 - implemented, 2 - further dev)
+- *(2) /static
+- *(3) /templates
+- *(4) README.md* Project documentation
 - *(5)  
 - *(6) 
 - *(7) 
@@ -63,7 +62,7 @@ This project is a part of the Becode.org AI Bootcamp programme. The goal is to p
 ## Visuals
 
 ![db schema](img/steam_analytics_ER_diagram.png)
-
+![pipeline](img/pipeline.png)
 ## Timeline
 
 The project took 10 working days.
