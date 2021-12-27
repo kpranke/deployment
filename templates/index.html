@@ -20,7 +20,11 @@
 			</style>
 	</head>
 	<body>
-		<img src="{{url_for('static', filename='img-test.png')}}" alt="Test Visualization">
+		<h1 style="font-family:'Verdana'">Steam Games Analytics</h1>
+		<p><img src="{{url_for('static', filename='steam-logo.png')}}" alt="Test Visualization"> </p>
+		<p>
+		<img src="{{url_for('static', filename='genres_popularity.png')}}" alt="Test Visualization">
+		<img src="{{url_for('static', filename='category_popularity.png')}}" alt="Test Visualization">
 		<table>
 			<tr>
 				<th>STEAM_ID</th><th>GAME_NAME</th><th>GAME_TYPE</th><th>REQUIRED_AGE</th><th>IS_FREE</th>
