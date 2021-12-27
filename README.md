@@ -44,13 +44,13 @@ This project is a part of the Becode.org AI Bootcamp programme. The goal is to t
 
 ## Repo Architecture
 
-- *(1) **/img** - a folder with images, contains an ER diagram of the existing SQL database and a suggested data pipelines (1 - implemented, 2 - further dev)
-- *(2) /static
-- *(3) /templates
-- *(4) README.md* Project documentation
-- *(5)  
-- *(6) 
-- *(7) 
+- *(1) **/img** - folder contains images, contains an ER diagram of the existing SQL database and a suggested data pipelines (1 - implemented, 2 - work in progress; in a separate repo)
+- *(2) **/static** - folder contains images used in the app
+- *(3) **/templates** - folder contains .html file used in the app
+- *(4) **README.md*** - project documentation
+- *(5) **Dockerfile**  - docker file
+- *(6) **ETL.ipynb** - Python notebook contains code necessary to extract data from json and load it to SQL database
+- *(7) **Insights.ipynb** - Python notebook contains data insights along with graphs which can be saved to .png
 
 ## Installation
 
