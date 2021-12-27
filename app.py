@@ -1,6 +1,9 @@
 from flask import Flask, render_template, request
 from sqlalchemy import Table, MetaData, Column, Integer, String
 from flask_sqlalchemy import SQLAlchemy
+import app
+import os
+import socket
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///steam_games.db'
@@ -86,4 +89,6 @@ def index():
 	return render_template('index.html', game=game)
 
 if __name__ == '__main__':
-    app.run(debug = True)
+    hostname = socket.gethostname()
+    local_ip = socket.gethostbyname(hostname)
+    app.run(host=local_ip, port=os.environ.get('PORT'), debug=True)
