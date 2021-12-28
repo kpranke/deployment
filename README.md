@@ -47,20 +47,20 @@ This project is a part of the Becode.org AI Bootcamp programme. The goal is to t
 
 ## Repo Architecture
 
-- *(1) **/img** - folder contains images: an ER diagram of the existing SQL database and suggested data pipelines (1 - implemented, 2 - work in progress; in a separate repo)
-- *(2) **/static** - folder contains images used in the app
-- *(3) **/templates** - folder contains .html file used for the app layout
-- *(4) **README.md*** - project documentation
-- *(5) **Dockerfile**  - Docker file
-- *(6) **ETL.ipynb** - Python notebook contains code necessary to extract data from json and load it to SQL database
-- *(7) **Insights.ipynb** - Python notebook contains data insights along with graphs which can be saved to .png
-- *(8) **Procfile** - a procfile, which is required to deply with Heroku
-- *(9) **app.py** - app written in Flask, which connects to the .db and displays visuals and table columns
-- *(10) **database.txt** - a text file in which data from Steam is stored (in JSON format)
-- *(11) **requirements.txt** - a text file with a list of libraries required to run the app
-- *(12) **runtime.txt** - a text file which sets the correct version of Python in which app runs.
-- *(12) **steam_games.db** - a generated SQL database with normalized tables (a prototype - does not contain all the initial data). See visuals for the ER diagram of the database structure.
-- -*(13) **STEAM ANALYTICS.pdf** - a presentation with the insights
+1. **/img** - folder contains images: an ER diagram of the existing SQL database and suggested data pipelines (1 - implemented, 2 - work in progress; in a separate repo)
+1. **/static** - folder contains images used in the app
+1. **/templates** - folder contains .html file used for the app layout
+1. **README.md*** - project documentation
+1. **Dockerfile**  - Docker file
+1. **ETL.ipynb** - Python notebook contains code necessary to extract data from json and load it to SQL database
+1. **Insights.ipynb** - Python notebook contains data insights along with graphs which can be saved to .png
+1. **Procfile** - a procfile, which is required to deply with Heroku
+1. **app.py** - app written in Flask, which connects to the .db and displays visuals and table columns
+1. **database.txt** - a text file in which data from Steam is stored (in JSON format)
+1. **requirements.txt** - a text file with a list of libraries required to run the app
+1. **runtime.txt** - a text file which sets the correct version of Python in which app runs.
+1. **steam_games.db** - a generated SQL database with normalized tables (a prototype - does not contain all the initial data). See visuals for the ER diagram of the database structure.
+1. **STEAM ANALYTICS.pdf** - a presentation with the insights
 
 ## Installation
 
