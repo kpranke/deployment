@@ -84,8 +84,9 @@ The project took 10 working days.
 
 ## Personal situation
 
-[kpranke](https://github.com/kpranke)
+I am currently participating in the Becode.org AI Bootcamp to upskill into a career in data science. My primary interest is in language as well as environmental issues.
 
-I am currently participating in the Becode.org AI Bootcamp to upskill into a career in data science.
+
+Feel free to reach me on LinkedIn: [kpranke](https://github.com/kpranke)
 
 **[Back to top](#table-of-contents)**
