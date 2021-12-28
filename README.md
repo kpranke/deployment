@@ -68,10 +68,10 @@ This project is a part of the Becode.org AI Bootcamp programme. The goal is to t
 
 
 ## Usage
-**1.** Access the app online: https://steam-analytics-kasia-docker.herokuapp.com/
-**2.** Or: to run the app in your local environment, open a command line and run `python app.py`.
-**3.** Or: to generate more insights use, `Insights.ipynb` jupyter notebook. In case you'd like to incorporate more visuals to the app, you need to add them to `app.py`.
-**4.** Or: to add more data to the SQL database, use `ETL.ipynb`, where you can create more columns (see the exisiting ones on the ER diagram in the *Visuals* section of this `README.md` file
+1. Access the app online: https://steam-analytics-kasia-docker.herokuapp.com/
+1. Or: to run the app in your local environment, open a command line and run `python app.py`.
+1. Or: to generate more insights use, `Insights.ipynb` jupyter notebook. In case you'd like to incorporate more visuals to the app, you need to add them to `app.py`.
+1. Or: to add more data to the SQL database, use `ETL.ipynb`, where you can create more columns (see the exisiting ones on the ER diagram in the *Visuals* section of this `README.md` file
 **Note:** I used the following SQL client to display the created database and automatically create the ER diagram: [DBeaver](https://dbeaver.io/)
 
 ## Visuals
